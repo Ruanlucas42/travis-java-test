@@ -1,7 +1,5 @@
 language: java
 jdk:
   - openjdk17
-
 script:
-  - javac Main.java
-  - java Main
+  - mvn clean install # ou outro comando para construir e testar
